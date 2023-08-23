@@ -7,7 +7,7 @@ void CheckNum(int num)
 {
     if(num < 0)
     {
-        Console.WriteLine($"Ошибка! Число должно быть положительным и целым!!!");
+        Console.WriteLine($"Ошибка!!! Число должно быть положительным и целым!!!");
     }
     return;
 }
