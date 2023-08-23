@@ -12,7 +12,7 @@ void CheckNum(int num)
     return;
 }
 
-int[] OutputMassive(int num)
+int[] InputMassive(int num)
 {
     int[] array = new int[num];
     for (int i = 0; i < num; i++)
@@ -53,8 +53,7 @@ Console.Write("-> ");
 int number = Convert.ToInt32(Console.ReadLine());
 CheckNum(number); //ввели число, проверили число
 
-int[] pozitiveNum = OutputMassive(number);//начали ввод чисел, итог поместили в переменную
+int[] pozitiveNum = InputMassive(number);//начали ввод чисел, итог поместили в переменную
 PrintArray(pozitiveNum); //вывели массив
 
 Console.WriteLine($" ----> {PozitiveNumber(pozitiveNum)};"); //вывели итог
-
